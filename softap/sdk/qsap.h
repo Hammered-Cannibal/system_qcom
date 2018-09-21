@@ -52,6 +52,9 @@ s32 wifi_qsap_unload_wifi_sta_driver(void);
 #ifdef QCOM_WLAN_CONCURRENCY
 s32 wifi_qsap_start_softap_in_concurrency(void);
 s32 wifi_qsap_stop_softap_in_concurrency(void);
+  
+s32 wifi_qsap_set_tx_power(s32);
+
 #endif
 
 #if __cplusplus
